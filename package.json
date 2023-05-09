@@ -1,0 +1,12 @@
+{
+  "name": "jui",
+  "version": "0.0.0",
+  "description": "Components",
+  "repository": "git@github.com:yfjiang-danny/JUI.git",
+  "author": "jiangyf <jiangyf@rimepevc.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
