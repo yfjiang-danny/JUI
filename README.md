@@ -1,2 +1,1 @@
-# JUI
-Components
+# React UI Components
