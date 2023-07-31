@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 36</title>
+    <defs>
+        <linearGradient x1="9.43787778%" y1="96.4652351%" x2="81.7305773%" y2="7.48247478%" id="linearGradient-1">
+            <stop stop-color="#B0B5ED" offset="0%"></stop>
+            <stop stop-color="#F2EFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="93.8233139%" y1="4.20204427%" x2="9.00447483%" y2="93.1122449%" id="linearGradient-2">
+            <stop stop-color="#D2D8FF" stop-opacity="0.672961682" offset="0%"></stop>
+            <stop stop-color="#6370EA" stop-opacity="0.412569486" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="9.43787778%" y1="96.9430236%" x2="81.7305773%" y2="7.04527946%" id="linearGradient-3">
+            <stop stop-color="#727CDD" offset="0%"></stop>
+            <stop stop-color="#EBE6FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="93.8233139%" y1="3.73111723%" x2="9.00447483%" y2="93.5555556%" id="linearGradient-4">
+            <stop stop-color="#D2D8FF" offset="0%"></stop>
+            <stop stop-color="#6370EA" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="1.35179163" y="3.35186657" width="30" height="28" rx="4"></rect>
+        <filter x="-112.2%" y="-128.4%" width="324.4%" height="356.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="9" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <polygon id="path-8" points="3.96509178 0 0.105895444 0 3.88787792 4.09866667 0 8 3.94824497 8 8 4.14545777"></polygon>
+        <filter x="-87.5%" y="-62.5%" width="275.0%" height="275.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.278431373   0 0 0 0 0.298039216   0 0 0 0 0.745098039  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-10" points="14.9650918 0 11.1058954 0 14.8878779 4.09866667 11 8 14.948245 8 19 4.14545777"></polygon>
+        <filter x="-87.5%" y="-62.5%" width="275.0%" height="275.0%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.278431373   0 0 0 0 0.298039216   0 0 0 0 0.745098039  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="详情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="企业详情---覆盖全屏" transform="translate(-700.000000, -574.000000)">
+            <g id="2备份-28" transform="translate(680.000000, 554.000000)">
+                <g id="编组-36" transform="translate(20.000000, 20.000000)">
+                    <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+                    <g id="编组-29" transform="translate(1.648208, 2.380000)">
+                        <path d="M29.429225,3.86518601 C30.4644386,3.86307435 31.401849,4.28136558 32.0806463,4.95896663 C32.7597544,5.636878 33.1800172,6.57432025 33.1804728,7.60973687 L33.1804728,7.60973687 L33.1680623,27.5996567 C33.1659441,28.6347141 32.7453868,29.5717166 32.0666118,30.2504887 C31.3878368,30.9292608 30.4508326,31.3498142 29.4161757,31.3519275 L29.4161757,31.3519275 L7.27435821,31.3616679 C6.23914461,31.3637796 5.30173423,30.9454883 4.62293697,30.2678873 C3.94382885,29.5899759 3.5235661,28.6525337 3.52311048,27.617117 L3.52311048,27.617117 L3.53552097,7.6271972 C3.53763919,6.59213977 3.9581965,5.65513731 4.63697148,4.97636519 C5.31574647,4.29759308 6.2527507,3.87703972 7.28740755,3.87492637 L7.28740755,3.87492637 Z" id="蒙版" stroke="url(#linearGradient-2)" stroke-width="0.5" fill="url(#linearGradient-1)" transform="translate(18.351792, 17.613427) rotate(16.000000) translate(-18.351792, -17.613427) "></path>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <rect stroke="url(#linearGradient-4)" stroke-width="0.5" x="1.60179163" y="3.60186657" width="29.5" height="27.5" rx="4"></rect>
+                        <rect id="矩形" fill="#ACAEFF" filter="url(#filter-7)" mask="url(#mask-6)" x="4.51347643" y="7.35704112" width="24.0596502" height="21.0271664" rx="4"></rect>
+                        <g id="icon/进度/2" mask="url(#mask-6)">
+                            <g transform="translate(6.851792, 13.350000)">
+                                <g id="路径-20备份-3">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                </g>
+                                <g id="路径-20备份-4">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

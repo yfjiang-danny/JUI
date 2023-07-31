@@ -1,0 +1,59 @@
+{
+  "name": "rui-icons",
+  "version": "0.1.0",
+  "private": true,
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rm -fr dist && yarn svgr0 && node build.js && tsc --emitDeclarationOnly --project tsconfig.build.json",
+    "postinstall": "yarn build",
+    "start": "craco start",
+    "svgr0": "yarn svgr1 && yarn svgr2",
+    "svgr1": "rm -fr ./src/icons/dist/normal/* && svgr ./src/icons/src/normal -d ./src/icons/dist/normal --config-file svgrrc.js --index-template index.template.js",
+    "svgr2": "rm -fr ./src/icons/dist/colorful/* && svgr ./src/icons/src/colorful -d ./src/icons/dist/colorful --config-file svgrrc.colorful.js --index-template index.template.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.34",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "kebab-case": "^1.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@svgr/cli": "^8.0.1",
+    "@types/webpack-env": "^1.18.1",
+    "esbuild": "^0.18.2",
+    "prettier": "^2.8.8",
+    "svg-sprite-loader": "^6.0.11",
+    "svgo-loader": "^4.0.0"
+  }
+}

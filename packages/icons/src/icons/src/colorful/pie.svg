@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 28</title>
+    <defs>
+        <linearGradient x1="9.43787778%" y1="103.888675%" x2="81.7305773%" y2="0.689734069%" id="linearGradient-1">
+            <stop stop-color="#727CDD" offset="0%"></stop>
+            <stop stop-color="#EBE6FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="93.8233139%" y1="-3.11478889%" x2="9.00447483%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#D2D8FF" offset="0%"></stop>
+            <stop stop-color="#6370EA" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-13.2%" y="-13.2%" width="126.5%" height="126.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M8.0304046,0.670098157 L8.0304046,9.9695954 L17.3299018,9.9695954 C16.9959301,14.4534355 13.2489825,18 8.6983481,18 C3.88053627,18 0,14.1194637 0,9.3016519 C0,4.75101748 3.54656452,1.00406991 8.0304046,0.670098157 L8.0304046,0.670098157 Z M9.36844625,0 C13.985875,0.269332056 17.7328226,4.01627963 18,8.63155375 L18,8.63155375 L9.36844625,8.63155375 Z" id="path-4"></path>
+        <filter x="-38.9%" y="-27.8%" width="177.8%" height="177.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.278431373   0 0 0 0 0.298039216   0 0 0 0 0.745098039  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="详情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="企业详情---覆盖全屏" transform="translate(-204.000000, -678.000000)">
+            <g id="1" transform="translate(184.000000, 658.000000)">
+                <g id="编组-28" transform="translate(20.000000, 20.000000)">
+                    <rect id="矩形" x="0" y="0" width="40" height="40"></rect>
+                    <g id="编组-13" transform="translate(4.000000, 3.000000)">
+                        <rect id="蒙版" stroke="url(#linearGradient-2)" stroke-width="0.5" fill="url(#linearGradient-1)" opacity="0.625175839" x="19.25" y="0.25" width="10.5" height="10.5" rx="5.25"></rect>
+                        <rect id="矩形" stroke="url(#linearGradient-2)" stroke-width="0.6" fill="url(#linearGradient-1)" x="-0.3" y="2.7" width="30.6" height="30.6" rx="15.3"></rect>
+                        <rect id="矩形" fill="#ACAFFA" filter="url(#filter-3)" x="3.66666667" y="6.66666667" width="22.6666667" height="22.6666667" rx="11.3333333"></rect>
+                        <g id="编组" transform="translate(6.000000, 9.000000)" fill-rule="nonzero">
+                            <g id="形状结合">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                <use fill="#FFFFFF" xlink:href="#path-4"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

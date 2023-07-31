@@ -1,0 +1,10 @@
+{
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "hooks",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "react": "^18.2.0"
+  }
+}
