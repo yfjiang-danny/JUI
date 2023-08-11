@@ -10,3 +10,11 @@ export interface BaseOptionModel {
   disabled?: boolean;
   children?: BaseOptionModel[];
 }
+
+export type BaseOptionModelWithPosKey = BaseOptionModel & { posKey: string };
+
+export interface PanelModel {
+  level: number;
+  parentPosKey?: string;
+  options: BaseOptionModel[];
+}

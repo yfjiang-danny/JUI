@@ -1,7 +1,7 @@
 import React, { forwardRef, useImperativeHandle, useState } from 'react';
 import CascaderPanel from '../Panel';
+import '../styles/index.less';
 import { BaseOptionModel } from '../type';
-import './style.less';
 
 interface CascaderContextProps<T> {
   panels: T[][];
